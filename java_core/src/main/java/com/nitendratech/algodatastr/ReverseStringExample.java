@@ -1,4 +1,4 @@
-package com.nitendratech;
+package com.nitendratech.algodatastr;
 
 /**
  * 

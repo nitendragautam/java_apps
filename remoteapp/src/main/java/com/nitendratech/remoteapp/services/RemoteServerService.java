@@ -127,7 +127,7 @@ public class RemoteServerService {
 
 
 /*
-Copy/Upload files Remote Files
+Copy/Upload files to Remote server
  */
 
     public boolean copyFilesUsingJsch(ChannelSftp channel,String fileName, GZIPInputStream in , String remotePath){
