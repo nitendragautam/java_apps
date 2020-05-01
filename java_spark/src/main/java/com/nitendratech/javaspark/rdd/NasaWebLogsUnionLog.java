@@ -47,7 +47,7 @@ public class NasaWebLogsUnionLog {
         // Sampling
         JavaRDD<String> sampleLogs = cleanLogsLines.sample(true,0.1);
 
-        sampleLogs.saveAsTextFile("output/sample_nasa_logs_" + new Date().getTime()+".csv");
+        sampleLogs.saveAsTextFile("outputs/sample_nasa_logs_" + new Date().getTime()+".csv");
 
 
 

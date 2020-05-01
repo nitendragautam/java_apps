@@ -33,5 +33,10 @@ public class CollectExample {
         for (String word: finalWords) System.out.println(word);
 
 
+        //finalWords.forEach(word -> System.out.println(word));
+        //OR
+        finalWords.forEach(System.out::println);
+
+
     }
 }

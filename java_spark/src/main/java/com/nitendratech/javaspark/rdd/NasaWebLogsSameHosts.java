@@ -40,10 +40,8 @@ public class NasaWebLogsSameHosts {
         JavaRDD<String> julyLogs = sparkContext.textFile("datasets/nasa_19950701.tsv")
                                                 .map(line -> line.split("\t")[0]);
 
-
         JavaRDD<String> augLogs = sparkContext.textFile("datasets/nasa_19950801.tsv")
                                                 .map(line -> line.split("\t")[0]);;
-
 
         //Intersection the Two RDD based on host value
 
