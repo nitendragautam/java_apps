@@ -1,4 +1,4 @@
-package com.nitendratech.rdd;
+package com.nitendratech.javaspark.rdd;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;

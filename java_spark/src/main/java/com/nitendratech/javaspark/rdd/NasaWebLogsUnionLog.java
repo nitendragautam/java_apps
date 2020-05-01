@@ -1,4 +1,4 @@
-package com.nitendratech.rdd;
+package com.nitendratech.javaspark.rdd;
 
 
 import org.apache.log4j.Level;
