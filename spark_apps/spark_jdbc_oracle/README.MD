@@ -1,0 +1,6 @@
+
+## Build Application
+
+```mvn package```
+
+
