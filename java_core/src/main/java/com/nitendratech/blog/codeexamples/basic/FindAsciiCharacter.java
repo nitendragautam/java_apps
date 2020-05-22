@@ -26,7 +26,5 @@ public class FindAsciiCharacter {
         findAsciiValue('a');
         findAsciiValue('d');
         findAsciiValue('e');
-
-
     }
 }

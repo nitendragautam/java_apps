@@ -20,10 +20,7 @@ public class StringToCharArray {
         // Convert to Character Array
         inputCharArray = inputString.toCharArray();
 
-
-
         //Print the Characters from the Char Array using different Method
-
         //Use For Loop
 
         System.out.println("First Method Output");
@@ -31,7 +28,6 @@ public class StringToCharArray {
         for (int i =0;i<inputCharArray.length; i++){
             System.out.print(inputCharArray[i]);
         }
-
 
         System.out.println("\n Second Method Output");
 
