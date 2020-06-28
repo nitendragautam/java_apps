@@ -1,7 +1,8 @@
 package com.nitendratech.javatesting;
 
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  * Created by @author nitendratech on 6/25/20
@@ -11,6 +12,6 @@ public class FirstMockitoTest {
 
     @Test
     public void test(){
-        Assert.assertTrue(true);
+        Assertions.assertTrue(true);
     }
 }
