@@ -6,8 +6,6 @@
 Below two dependencies are needed for writing JUnit 5 Test Cases
 ```
 
-
-
  <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
@@ -35,8 +33,21 @@ Below dependency needs to be added in the ```pom.xml```  build tag to
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
             </plugin>
-
-
         </plugins>
 
 ```
+
+
+## Test Life Cycle
+
+It is the process in which Test instance is created,its managed and its destroyed.
+
+### Junit Life Cycle Hooks
+
+* ```@BeforeAll```
+* ```@AfterAll```
+* ```@BeforeEach```
+* ```@AfterEach```
+
+
+We can use the BeforeAll and AfterAll annotations for only those method which are static.
