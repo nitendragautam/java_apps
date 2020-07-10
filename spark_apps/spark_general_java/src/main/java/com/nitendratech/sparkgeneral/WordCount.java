@@ -26,7 +26,7 @@ public class WordCount {
         // Set the Log level to Error
         Logger.getLogger("org").setLevel(Level.ERROR);
 
-        SparkConf conf = new SparkConf().setAppName("wordCountss");
+        SparkConf conf = new SparkConf().setAppName("WordCount Example");
         JavaSparkContext sparkContext = new JavaSparkContext(conf);
 
         JavaRDD<String> lines = sparkContext.textFile(filePath);
