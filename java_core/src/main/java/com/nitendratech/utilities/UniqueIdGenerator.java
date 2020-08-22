@@ -21,7 +21,7 @@ public class UniqueIdGenerator {
 
 
 
-    public static String getSequenceBasedDateTime() {
+    public static String getSequenceBasedDateTimeStamp() {
         long initVal = Long.valueOf(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"))) * 10;
 
 
@@ -30,13 +30,13 @@ public class UniqueIdGenerator {
     }
 
 
-    public static String getTimeStamp() {
+    public static String getTimeStampInMilli() {
         Instant instant = Instant.now();
         long timeStampMillis = instant.toEpochMilli();
         return String.valueOf(timeStampMillis);
     }
 
-    public static String getEpoch() {
+    public static String getEpochTime() {
         Calendar c = Calendar.getInstance();
         c.setTimeInMillis(0);
         c.set(2008, 0, 1, 0, 0, 0);
@@ -49,24 +49,5 @@ public class UniqueIdGenerator {
 
 
 
-    public static void main(String[] args){
-
-      //  System.out.println(getSequenceBasedDate());
-
-
-
-
-        for(int i =0; i<100;i++) {
-
-           System.out.println(getTimeStamp());
-           // System.out.println(getEpoch());
-
-            //System.out.println(Long.parseLong(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"))) * 10);
-
-
-        }
-
     }
 
-
-}
