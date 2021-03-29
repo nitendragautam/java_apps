@@ -29,7 +29,7 @@ public class StringEquality {
 
 
         System.out.println();
-        System.out.println(stringObj == otherObj); // These two compare different references in memory
+        System.out.println(stringObj.equals(otherObj)); // These two compare different references in memory
         System.out.println(stringObj.equals(otherObj));//Since we are comparing the value rather than the String,it will return true
     }
 }

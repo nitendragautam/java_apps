@@ -1,4 +1,4 @@
-package com.nitendratech.datastructure;
+package com.nitendratech.tutorials;
 
 /**
  * Array is a collection of object of the same data type

@@ -1,4 +1,4 @@
-package com.nitendratech.practice;
+package com.nitendratech.tutorials;
 
 import java.util.LinkedList;
 
@@ -6,7 +6,7 @@ import java.util.LinkedList;
 /**
  * An Example of Linkedlist which creates the Travel Bucket List
  */
-public class LinkedListExample {
+public class LinkedListTut {
 
 
     public static void main(String [] args){
